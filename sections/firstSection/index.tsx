@@ -5,7 +5,7 @@ import playing from "@/public/photos/playing.png";
 export default function FirstSection() {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col w-full gap-10 items-center md:items-start">
+      <div className="flex flex-col w-full gap-10 items-center md:items-start h-screen relative">
         <Image
           src={celebration}
           alt="Celebration"
@@ -14,7 +14,7 @@ export default function FirstSection() {
         <Image
           src={playing}
           alt="playing"
-          className="flex md:hidden h-screen object-cover relative"
+          className="flex md:hidden h-full object-cover"
         />
         <div
           style={{
