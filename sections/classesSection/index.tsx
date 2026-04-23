@@ -41,7 +41,7 @@ export default function ClassesSection() {
           <Image
             src={celebration}
             alt="Aula iniciante"
-            className="w-full  rounded-xl"
+            className="w-full md:w-140 rounded-xl"
           />
           <div className="flex flex-col gap-3 text-justify ">
             <p className="text-xl md:text-2xl font-semibold">Iniciante</p>
@@ -56,7 +56,7 @@ export default function ClassesSection() {
           <Image
             src={celebration}
             alt="Aula intermediária"
-            className="w-full  rounded-xl"
+            className="w-full md:w-140 rounded-xl"
           />
           <div className="flex flex-col gap-3 text-justify ">
             <p className="text-xl md:text-2xl font-semibold">Intermediário</p>
@@ -71,7 +71,7 @@ export default function ClassesSection() {
           <Image
             src={celebration}
             alt="Aula avançada"
-            className="w-full  rounded-xl"
+            className="w-full md:w-140 rounded-xl"
           />
           <div className="flex flex-col gap-3 text-justify ">
             <p className="text-xl md:text-2xl font-semibold">Avançado</p>
