@@ -1,36 +1,11 @@
-import Image from "next/image";
-import celebration from "../public/photos/celebration.png";
-import playing from "../public/photos/playing.png";
+import FirstPage from "@/pages/firstPage";
+import AboutPage from "@/pages/aboutPage";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-col w-full gap-10 items-center md:items-start">
-        <Image
-          src={celebration}
-          alt="Celebration"
-          className="-mt-40 md:flex hidden "
-        />
-        <Image
-          src={playing}
-          alt="playing"
-          className="flex md:hidden pt-24 h-screen object-cover"
-        />
-        <div
-          style={{
-            backgroundImage: "linear-gradient(to top, black, transparent)",
-          }}
-          className="absolute bottom-0 left-0 w-full h-60 text-white md:px-32 px-8 gap-4 flex flex-col"
-        >
-          <p className="md:text-8xl text-4xl font-bold ">
-            Onde o jogo acontece!
-          </p>
-          <p className="text-xl">
-            Futevôlei é inclusão social, é vida, é saúde, é felicidade. Desde
-            2018 na BR7.
-          </p>
-        </div>
-      </div>
-    </div>
+    <>
+      <FirstPage />
+      <AboutPage />
+    </>
   );
 }
