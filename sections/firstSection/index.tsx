@@ -14,7 +14,7 @@ export default function FirstSection() {
         <Image
           src={playing}
           alt="playing"
-          className="flex md:hidden h-screen -mt-10 object-cover"
+          className="flex md:hidden h-screen object-cover"
         />
         <div
           style={{
