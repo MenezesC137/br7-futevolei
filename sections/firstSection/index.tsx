@@ -14,13 +14,13 @@ export default function FirstSection() {
         <Image
           src={playing}
           alt="playing"
-          className="flex md:hidden pt-24 h-screen object-cover"
+          className="flex md:hidden h-screen object-cover"
         />
         <div
           style={{
             backgroundImage: "linear-gradient(to top, black, transparent)",
           }}
-          className="absolute bottom-0 left-0 w-full h-60 text-white md:px-32 px-4 gap-4 flex flex-col pb-24"
+          className="absolute bottom-0 left-0 w-full h-60 text-white md:px-32 px-4 gap-4 flex flex-col "
         >
           <p className="md:text-8xl text-4xl font-bold ">
             Onde o jogo acontece!
