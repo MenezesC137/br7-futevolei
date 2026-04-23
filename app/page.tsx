@@ -1,11 +1,13 @@
-import FirstPage from "@/pages/firstPage";
-import AboutPage from "@/pages/aboutPage";
+import FirstSection from "@/sections/firstSection";
+import AboutSection from "@/sections/aboutSection";
+import ClassesSection from "@/sections/classesSection";
 
 export default function Home() {
   return (
     <>
-      <FirstPage />
-      <AboutPage />
+      <FirstSection />
+      <AboutSection />
+      <ClassesSection />
     </>
   );
 }

@@ -2,7 +2,7 @@ import Image from "next/image";
 import celebration from "@/public/photos/celebration.png";
 import playing from "@/public/photos/playing.png";
 
-export default function FirstPage() {
+export default function FirstSection() {
   return (
     <div className="flex flex-col">
       <div className="flex flex-col w-full gap-10 items-center md:items-start">

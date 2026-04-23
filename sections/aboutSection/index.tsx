@@ -1,8 +1,8 @@
-export default function aboutPage() {
+export default function AboutSection() {
   return (
     <section className="max-w-6xl px-10 md:px-32 py-10 space-y-6 ">
       <div className="w-20 h-1 bg-orange-500" />
-      <h2 className="text-3xl md:text-4xl font-bold">
+      <h2 className="text-4xl md:text-5xl font-bold">
         Historia da BR7 Futevôlei
       </h2>
       <p className="text-base md:text-lg leading-relaxed">
