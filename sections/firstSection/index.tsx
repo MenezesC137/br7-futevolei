@@ -20,12 +20,12 @@ export default function FirstSection() {
           style={{
             backgroundImage: "linear-gradient(to top, black, transparent)",
           }}
-          className="absolute bottom-0 left-0 w-full h-60 text-white md:px-32 px-8 gap-4 flex flex-col"
+          className="absolute bottom-0 left-0 w-full h-60 text-white md:px-32 px-4 gap-4 flex flex-col pb-24"
         >
           <p className="md:text-8xl text-4xl font-bold ">
             Onde o jogo acontece!
           </p>
-          <p className="text-xl">
+          <p className="text-xl text-justify">
             Futevôlei é inclusão social, é vida, é saúde, é felicidade. Desde
             2018 na BR7.
           </p>

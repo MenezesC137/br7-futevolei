@@ -30,7 +30,7 @@ export default function ClassesSection() {
   ];
 
   return (
-    <section className="px-6 md:px-16 lg:px-32 py-12 space-y-12 bg-black text-white">
+    <section className="px-4 md:px-16 lg:px-32 py-12 space-y-12 bg-black text-white">
       <div className="space-y-6">
         <div className="w-16 h-1 bg-orange-500" />
         <h2 className="text-3xl md:text-5xl font-bold">Nossas aulas</h2>
